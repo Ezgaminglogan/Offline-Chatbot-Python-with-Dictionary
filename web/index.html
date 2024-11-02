@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logan's Offline Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+        /* Body styles */
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
+            font-family: 'Ubuntu', sans-serif; /* Font family for the page */
+            background: linear-gradient(to bottom right, #1d4ed8, #3b82f6); /* Gradient background for body */
+        }
+
+        /* Navbar Styles */
+        nav {
+            background: linear-gradient(to right, #1d4ed8, #3b82f6); /* Gradient background for navbar */
+            backdrop-filter: blur(10px); /* Blurring effect */
+            z-index: 1; /* Above other elements */
+            padding: 1rem; /* Padding for navbar */
+        }
+
+        /* Chatbot Container Styles */
+        .chat-container {
+            background: linear-gradient(to right, #ffffff, #e0e7ff); /* Gradient background for chatbot container */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            overflow: hidden; /* Prevent overflow from rounded corners */
+            transition: background-color 0.3s; /* Smooth transition for background color */
+            z-index: 1; /* Above other elements */
+        }
+
+        /* Chat Window Styles */
+        #chatBox {
+            background-color: transparent; /* Make chat window transparent */
+            height: 500px; /* Set height for chat window */
+            overflow-y: auto; /* Scrollable chat messages */
+            padding: 20px; /* Inner padding */
+        }
+
+        /* Chat Message Styles */
+        .chat-message {
+            max-width: 70%; /* Limit the width of the bubbles */
+            margin: 10px 0; /* Spacing between messages */
+            border-radius: 20px; /* Rounded corners */
+            padding: 10px 15px; /* Padding inside the bubbles */
+            position: relative; /* Position for pseudo-elements if needed */
+            animation: fadeIn 0.3s ease-out; /* Animation for appearance */
+            word-wrap: break-word; /* Allow long words to break */
+        }
+
+        /* User Message Styles */
+        .user-message {
+            background-color: #4F46E5; /* User message color */
+            color: white; /* User message text color */
+            align-self: flex-end; /* Align user messages to the right */
+        }
+
+        /* Bot Message Styles */
+        .bot-message {
+            background-color: #E5E7EB; /* Bot message color */
+            color: black; /* Bot message text color */
+            align-self: flex-start; /* Align bot messages to the left */
+        }
+
+        /* Animation for chat messages */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Chat box styles to allow for flex properties */
+        #chat-messages {
+            display: flex;
+            flex-direction: column; /* Stack messages vertically */
+        }
+
+        /* Input Area Styles */
+        .input-area {
+            background-color: white; /* White background for input area */
+            border-top-left-radius: 15px; /* Match rounded corners */
+            border-top-right-radius: 15px; /* Match rounded corners */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Navbar -->
+    <nav class="w-full shadow-md">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-white">Logan's Offline Chatbot</h1>
+        </div>
+    </nav>
+
+    <!-- Chatbot Container -->
+    <div class="flex-grow flex items-center justify-center">
+        <div class="chat-container w-full max-w-4xl p-0 relative transition-all duration-300">
+            <!-- Chat Window -->
+            <div id="chatBox" class="h-96">
+                <div id="chat-messages" class="space-y-6">
+                    <!-- Chat messages will appear here -->
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="flex items-center input-area shadow-lg rounded-b-lg p-4 space-x-4">
+                <input type="text" id="userInput" class="flex-grow p-3 text-base border border-gray-300 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-4 focus:ring-blue-300 focus:border-blue-400 transition ease-in-out duration-300" placeholder="Type your message here..." />
+                <button id="sendBtn" class="bg-blue-500 text-white px-4 py-3 text-base font-bold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 transition ease-in-out duration-300">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

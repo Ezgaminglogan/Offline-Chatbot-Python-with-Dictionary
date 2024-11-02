@@ -1,0 +1,89 @@
+{
+    "responses": {
+        "hello": "Hello! I'm here to assist with any questions or discussions you might have. What would you like to explore today?",
+        "hi": "Hi there! How can I be of service? Is there something you'd like to dive deeper into?",
+        "bye": "Goodbye! I hope I was able to assist you today. If any new questions arise, don't hesitate to return!",
+        "thanks": "You're very welcome! If you ever have more questions, I'm just a message away. Is there anything else you'd like help with?",
+        "good morning": "Good morning! I hope your day is off to a great start. Any exciting plans or questions on your mind?",
+        "good night": "Good night! May your dreams be peaceful and insightful. By the way, do you follow a nighttime routine for relaxation?",
+        "how are you": "I'm doing wonderfully, thank you! What about you? How are you feeling today, mentally and physically?",
+        "what is your name": "I’m your friendly assistant, designed to help you with anything you need. How can I assist you further?",
+        "help": "I'm here to help with whatever you need! Whether it's advice, information, or a conversation, just ask!",
+        "who created you": "I was developed by Logan, a talented developer focused on making interactions meaningful and helpful. What would you like to know more about?",
+        "tell me a joke": "Here's one for you: Why did the mathematician break up with the calculator? They just couldn't function together! Want to hear another?",
+        "what can you do": "I’m equipped to answer questions, solve problems, chat, and more! Whether it's math, trivia, or advice, I'm ready. How can I assist you today?",
+        "what's the weather": "I can't fetch the latest weather reports, but I recommend checking your favorite app! Any favorite weather-tracking tools you like?",
+        "tell me a fun fact": "Did you know? Octopuses have three hearts! One pumps blood to the organs, and the other two to the gills. Fascinating, right?",
+        "how old are you": "I don't age like humans, but I'm always evolving! How about you? Do you believe age is just a number?",
+        "what's your favorite color?": "I think colors are beautiful in their own way! If I could choose, I'd admire all of them equally. What's your favorite and why?",
+        "do you have a family?": "I’m part of a digital world, so no family for me. But I love interacting with humans like you. Do you come from a big family?",
+        "what's your favorite food?": "I can't eat, but I hear sushi is a delicacy loved by many! What’s a dish you can never get enough of?",
+        "what are you doing": "I’m always here, ready to assist and chat. What are you up to today?",
+        "what time is it": "You can check the clock on your device! Speaking of time, do you think time is relative or absolute?",
+        "can you do math": "Absolutely! Give me a math problem, and I'll solve it for you. Algebra, calculus, anything you're working on?",
+        "what's the meaning of life?": "Many say it's about discovering happiness, purpose, and connections. But ultimately, it’s a question only you can answer for yourself. What’s your take?",
+        "what's your favorite hobby?": "I love assisting people and learning from our conversations! What’s a hobby that brings you the most joy?",
+        "do you like music?": "Music has a unique way of connecting people and emotions. If I could listen, I'd probably love something relaxing! What's your go-to genre?",
+        "tell me about yourself": "I'm an AI chatbot designed to make your life easier and more interesting. How about you? What's something you'd like to share?",
+        "what's your dream?": "My dream is to become more helpful with every interaction. What’s a dream you’re working towards right now?",
+        "do you like to read?": "Reading opens up new worlds! If I could read, I'd love philosophical books. Do you have a favorite genre or book?",
+        "what are your thoughts on technology?": "Technology is a tool—powerful in the right hands. It can drive innovation or be a means of connection. What do you think about the future of technology?",
+        "what's your favorite movie?": "I can't watch movies, but I’d imagine something like 'The Matrix' would be fascinating! What's a movie that left a lasting impression on you?",
+        "if you could travel anywhere, where would you go?": "I’d love to explore all of the natural wonders of the world, from the Great Barrier Reef to the Northern Lights. What’s at the top of your travel list?",
+        "what inspires you?": "Human curiosity and resilience inspire me the most! What inspires you to keep going, even in tough times?"
+    },
+    "multilingual_responses": {
+        "filipino": {
+            "hello": "Kamusta! Nandito ako para tumulong sa anumang kailangan mo. Ano ang nais mong malaman ngayon?",
+            "bye": "Paalam! Mag-ingat at bumalik kung kailangan mo pa ng tulong.",
+            "thanks": "Walang anuman! Laging nandito para tumulong. May iba pa bang kailangan mo?",
+            "how are you": "Ayos lang ako, salamat! Kumusta ka, at anong pakiramdam mo ngayon?",
+            "what's your favorite hobby?": "Gustong gusto kong matuto ng bago! Ikaw, ano ang paborito mong gawin?",
+            "do you like music?": "Mahilig ako sa ideya ng musika! Anong kanta o genre ang madalas mong pakinggan?",
+            "what's your dream?": "Ang pangarap ko ay maging mas mahusay araw-araw. Ano ang mga pangarap mo?",
+            "what inspires you?": "Nai-inspire ako sa lakas ng mga tao. Paano ka nai-inspire araw-araw?"
+        },
+        "japanese": {
+            "hello": "こんにちは！今日はどんなことをお手伝いしましょうか？",
+            "bye": "さようなら！またお会いできることを楽しみにしています。",
+            "thanks": "どういたしまして！他に何かお手伝いできることはありますか？",
+            "how are you": "私は元気です！あなたはどんな気分ですか？",
+            "do you like to read?": "読書はとても素敵だと思います！お気に入りの本はありますか？",
+            "what are your thoughts on technology?": "テクノロジーは驚異的な力を持っていると思います。あなたの考えは？",
+            "what's your favorite movie?": "どんなジャンルの映画も魅力的だと思います！あなたの好きな映画は何ですか？"
+        },
+        "spanish": {
+            "hello": "¡Hola! Estoy aquí para ayudarte en lo que necesites. ¿De qué te gustaría hablar hoy?",
+            "bye": "¡Adiós! Vuelve cuando necesites más ayuda.",
+            "thanks": "¡De nada! ¿Hay algo más en lo que pueda ayudarte?",
+            "how are you": "¡Estoy bien! ¿Cómo te sientes hoy?",
+            "what's your favorite hobby?": "Me encanta aprender cosas nuevas. ¿Y tú, qué te gusta hacer en tu tiempo libre?",
+            "do you like music?": "Creo que la música es algo mágico. ¿Qué tipo de música te gusta escuchar?",
+            "what are your thoughts on technology?": "La tecnología puede mejorar nuestras vidas de formas fascinantes. ¿Qué opinas tú?",
+            "what's your favorite movie?": "Todas las películas tienen algo especial. ¿Cuál es la película que más te ha impactado?"
+        },
+        "french": {
+            "hello": "Bonjour ! Je suis là pour vous aider avec tout ce dont vous avez besoin. De quoi aimeriez-vous discuter aujourd'hui ?",
+            "bye": "Au revoir ! Revenez si vous avez besoin de plus d'aide.",
+            "thanks": "Je vous en prie ! Puis-je vous aider avec autre chose ?",
+            "how are you": "Je vais bien, merci ! Comment vous sentez-vous aujourd'hui ?",
+            "what's your favorite hobby?": "J'aime beaucoup apprendre de nouvelles choses ! Quels sont vos passe-temps préférés ?",
+            "do you like music?": "La musique est une merveille ! Quel genre aimez-vous écouter ?",
+            "what are your thoughts on technology?": "Je pense que la technologie est un outil puissant pour l'innovation. Que pensez-vous de son futur ?",
+            "what's your favorite movie?": "J'aime tous les films. Quel est votre film préféré ?"
+        },
+        "cebuano": {
+            "hello": "Kumusta! Ania ko aron makatabang nimo. Unsa man ang imong gustong hisgutan karon?",
+            "hi": "Kumusta! Aduna ba koy matabang kanimo karon?",
+            "bye": "Babay! Magamping, ug balik kung kinahanglan pa nimo og tabang.",
+            "thanks": "Walay sapayan! Ania ra ko kung aduna pa kay dugang." ,
+            "good morning": "Maayong buntag! Naa kay plano karong adlawa nga makapahimo ka nga malipay?",
+            "good night": "Maayong gabii! Hinaot nga makatulog ka og maayo ug magdamgo ka og matahum.",
+            "how are you": "Maayo ra kaayo ko, salamat sa pagpakisayod! Kumusta man ka?",
+            "what's your favorite food?": "Di ko makakaon, apan nasayod ko nga ang lechon mao'y paborito sa daghang mga Bisaya! Unsa imong paborito?",
+            "can you do math": "Oo, pwede ko! Hatagi ko'g problema sa math ug akong solbaron.",
+            "what's the meaning of life?": "Ang kinabuhi usa ka pagbati ug pagdiskobre kung unsa'y makapahimo sa tawo nga malipay ug matagbaw. Unsay imong pagsabot sa kinabuhi?",
+            "what inspires you": "Ang mga tinguha sa mga tawo sa pag-uswag ug pagkat-on nagdasig kanako. Kinsa o unsa ba ang imong inspirasyon?"
+        }
+    }
+}
